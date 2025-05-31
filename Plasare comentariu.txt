@@ -1,0 +1,28 @@
+Feature: Plasarea de comentariu
+Scenariu 1: Utilizatorul poate plasa un comentariu
+
+
+GIVEN Utilizatorul logat se afla in sectiunea comentarii a unui video
+WHEN Utilizatorul tapeaza un comentariu "Cool song"
+AND Utilizatorul da click pe butonul Lasa un comentariu
+THEN Utilizatorul vede comentariu amplasat
+WHEN Utilizatorul tapeaza un comentariu "Super"
+AND Utilizatorul da click pe butonul Lasa un comentariu
+THEN Utilizatorul vede comentariu amplasat
+WHEN Utilizatorul tapeaza un comentariu "Aplauze"
+AND Utilizatorul da click pe butonul Lasa un comentariu
+THEN Utilizatorul vede comentariu amplasat
+
+Scenariu 2: Utilizatorul poate plasa un comentariu
+GIVEN Utilizatorul ne logat se afla in sectiunea comentarii a unui video
+WHEN Utilizatorul tapeaza un comentariu "Cool song"
+AND Utilizatorul da click pe butonul Lasa un comentariu
+THEN Utilizatorul nu vede comentariu amplasat
+GIVEN Utilizatorul logat se afla in sectiunea comentarii a unui video
+WHEN Utilizatorul nu tapeaza un comentariu "Super"
+AND Utilizatorul da click pe butonul Lasa un comentariu
+THEN Utilizatorul nu vede comentariu amplasat
+WHEN Utilizatorul tapeaza un comentariu "Aplauze"
+AND Utilizatorul nu da click pe butonul Lasa un comentariu
+THEN Utilizatorul nu vede comentariu amplasat
+  
