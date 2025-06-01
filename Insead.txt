@@ -10,3 +10,10 @@ GIVEN: Utilizatorul ne logat se afla pe pagina / Programme Finder
 WHEN: Utilizatorul tapeaza textul unu program inexistent in bara de cautare
 AND: Da click pe butonul "Search"
 THEN: Utilizatorul nu vede rezultatul
+
+SCENARIO 3: Utilizatorul nu poate cauta un program 
+GIVEN: Utilizatorul ne logat se afla pe pagina / Programme Finder
+WHEN: Utilizatorul tapeaza textul unu program existent in bara de cautare
+AND: Nu da click pe butonul "Search"
+THEN: Utilizatorul nu vede rezultatul
+
