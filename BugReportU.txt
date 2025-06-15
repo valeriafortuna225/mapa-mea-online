@@ -1,0 +1,40 @@
+Bug Report
+
+Titlu:
+Profilul utilizatorului nu se încarcă după autentificare
+
+Descriere:
+Profilul utilizatorului nu se încarcă după autentificare. Apare un ecran gol și nu se afișează nicio informație despre utilizator.
+
+Preconditii:
+Dispozitiv - conectat la sistemul de incarcare
+Conexiune la internet
+Browser
+Cont existent pe www.utest.com 
+
+Date de test:
+www.utest.com - in calitate de adresa de productie
+Username: valeriafortuna225@gmail.com
+Parola: test123!
+
+Pași de Reproducere:
+1. Tapeaza www.utest.com in bara de cautare
+2. Autentifică-te cu contul valid
+3. Da click pe butonul login
+
+Rezultat Așteptat:
+Profilul utilizatorului se încarcă după autentificare
+
+Rezultat Actual:
+Profilul utilizatorului nu se încarcă după autentificare
+Se încarcă o pagină complet albă (white screen)
+
+Severitate: Inalta
+Prioritate: Inalta
+
+Data si ora: 15.06.2025 13:00
+
+Atasament: screen.jpg
+
+Programator: Jerry
+QA: Valeria
